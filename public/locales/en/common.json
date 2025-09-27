@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "request": "Request Service"
+  },
+  "hero": {
+    "title": "Code Craft Technology",
+    "subtitle": "Building Digital Solutions for Tomorrow",
+    "description": "We create innovative web applications, mobile apps, and digital solutions that drive business growth and enhance user experiences.",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive digital solutions tailored to your needs",
+    "webDevelopment": "Web Development",
+    "mobileDevelopment": "Mobile Development",
+    "uiUxDesign": "UI/UX Design",
+    "consulting": "Technology Consulting",
+    "maintenance": "Maintenance & Support"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Showcasing our expertise through real-world solutions",
+    "viewProject": "View Project",
+    "liveDemo": "Live Demo",
+    "techStack": "Tech Stack"
+  },
+  "about": {
+    "title": "About Code Craft",
+    "subtitle": "Your trusted technology partner",
+    "description": "We are a team of passionate developers and designers dedicated to creating exceptional digital experiences. With years of experience in web and mobile development, we help businesses transform their ideas into reality.",
+    "mission": "Our Mission",
+    "missionText": "To empower businesses with cutting-edge technology solutions that drive growth and innovation.",
+    "vision": "Our Vision",
+    "visionText": "To be the leading technology partner for businesses seeking digital transformation."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your next project?",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "message": "Message",
+    "send": "Send Message",
+    "address": "Address",
+    "phoneNumber": "Phone",
+    "emailAddress": "Email"
+  },
+  "request": {
+    "title": "Request a Service",
+    "subtitle": "Tell us about your project and we'll get back to you",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "service": "Service Needed",
+    "budget": "Budget Range",
+    "deadline": "Project Deadline",
+    "description": "Project Description",
+    "attachments": "Attachments",
+    "submit": "Submit Request",
+    "success": "Request submitted successfully! We'll get back to you soon."
+  },
+  "footer": {
+    "description": "Building digital solutions for tomorrow's businesses.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Info",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "services": "Services",
+    "projects": "Projects",
+    "requests": "Requests",
+    "media": "Media",
+    "settings": "Settings",
+    "users": "Users",
+    "logout": "Logout",
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "search": "Search"
+  },
+  "services": {
+    "subtitle": "Comprehensive digital solutions tailored to your needs",
+    "webDevelopmentDesc": "Modern, responsive websites built with the latest technologies including React, Next.js, and Node.js.",
+    "mobileDevelopmentDesc": "Native and cross-platform mobile applications for iOS and Android.",
+    "uiUxDesignDesc": "Beautiful, user-centered design solutions that enhance user experience.",
+    "consultingDesc": "Strategic technology consulting and planning to help your business grow.",
+    "ctaTitle": "Ready to Get Started?",
+    "ctaDescription": "Let's discuss your project and see how we can help bring your vision to life."
+  },
+  "projects": {
+    "subtitle": "Showcasing our expertise through real-world solutions",
+    "ecommerceDesc": "A full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.",
+    "bankingDesc": "A secure mobile banking application with biometric authentication and real-time transactions.",
+    "healthcareDesc": "A comprehensive healthcare management system for patient records and appointment scheduling.",
+    "lmsDesc": "An online learning platform with video streaming, quizzes, and progress tracking.",
+    "realEstateDesc": "A property listing platform with advanced search, virtual tours, and agent management.",
+    "foodDeliveryDesc": "A food delivery application with real-time tracking, payment integration, and restaurant management.",
+    "featured": "Featured Projects",
+    "featuredDesc": "Our most impactful and innovative solutions",
+    "other": "More Projects",
+    "otherDesc": "Additional projects showcasing our diverse expertise",
+    "ctaTitle": "Have a Project in Mind?",
+    "ctaDescription": "Let's work together to create something amazing. Get in touch today."
+  },
+  "about": {
+    "ourStory": "Our Story",
+    "additionalInfo": "Founded in 2019, Code Craft Technology has grown from a small startup to a trusted technology partner for businesses worldwide. We specialize in creating digital solutions that drive growth and innovation.",
+    "ourNumbers": "Our Numbers",
+    "numbersDesc": "The impact we've made over the years",
+    "ourValues": "Our Values",
+    "valuesDesc": "The principles that guide everything we do",
+    "values": {
+      "teamwork": "Teamwork",
+      "teamworkDesc": "We believe in the power of collaboration and working together towards common goals.",
+      "innovation": "Innovation",
+      "innovationDesc": "We constantly seek new ways to solve problems and create better solutions.",
+      "quality": "Quality",
+      "qualityDesc": "We are committed to delivering the highest quality solutions that exceed expectations.",
+      "reliability": "Reliability",
+      "reliabilityDesc": "We deliver on time and maintain long-term relationships with our clients."
+    },
+    "ourTeam": "Meet Our Team",
+    "teamDesc": "The talented individuals behind our success",
+    "team": {
+      "ceo": "CEO & Founder",
+      "ceoDesc": "10+ years in software development and business strategy.",
+      "cto": "CTO",
+      "ctoDesc": "Expert in full-stack development and system architecture.",
+      "leadDesigner": "Lead Designer",
+      "leadDesignerDesc": "Creative designer with expertise in UI/UX and brand identity.",
+      "projectManager": "Project Manager",
+      "projectManagerDesc": "Experienced in managing complex projects and client relationships."
+    },
+    "stats": {
+      "projects": "Projects Completed",
+      "clients": "Happy Clients",
+      "years": "Years Experience",
+      "support": "Support Available"
+    },
+    "workWithUs": "Ready to Work With Us?",
+    "workWithUsDesc": "Let's discuss your project and see how we can help bring your vision to life."
+  },
+  "contact": {
+    "phoneDesc": "Call us during business hours",
+    "emailDesc": "Send us an email anytime",
+    "addressDesc": "Visit our office",
+    "hours": "Business Hours",
+    "hoursDesc": "We're here to help",
+    "sendMessage": "Send us a Message",
+    "getInTouch": "Get in Touch",
+    "description": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "findUs": "Find Us",
+    "findUsDesc": "Visit our office or get directions",
+    "mapPlaceholder": "Interactive map will be displayed here",
+    "success": "Message Sent!",
+    "successDesc": "Thank you for your message. We'll get back to you soon.",
+    "sending": "Sending..."
+  },
+  "home": {
+    "features": {
+      "customWeb": "Custom Web Applications",
+      "mobileApp": "Mobile App Development",
+      "uiUx": "UI/UX Design",
+      "consulting": "Technology Consulting",
+      "maintenance": "Maintenance & Support",
+      "support": "24/7 Customer Service"
+    },
+    "whyChoose": "Why Choose Code Craft?",
+    "whyChooseDesc": "We combine technical expertise with creative vision to deliver solutions that exceed expectations.",
+    "readyToStart": "Ready to Get Started?",
+    "readyToStartDesc": "Let's discuss your project and see how we can help bring your vision to life.",
+    "requestQuote": "Request a Quote",
+    "transformBusiness": "Ready to Transform Your Business?",
+    "transformBusinessDesc": "Let's work together to create something amazing. Get in touch today.",
+    "getStartedToday": "Get Started Today"
+  }
+}
+

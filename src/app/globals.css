@@ -1,15 +1,101 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+/* Button styling fixes - Force proper colors */
+button {
+  min-height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border: 1px solid transparent;
+}
+
+/* Primary buttons - Blue background, white text */
+button[class*="bg-blue"],
+button.bg-blue-600,
+.bg-blue-600,
+button[data-variant="primary"] {
+  background-color: #2563eb !important;
+  color: white !important;
+  border-color: #2563eb !important;
+}
+
+button[class*="bg-blue"]:hover,
+button.bg-blue-600:hover,
+.bg-blue-600:hover,
+button[data-variant="primary"]:hover {
+  background-color: #1d4ed8 !important;
+  color: white !important;
+  border-color: #1d4ed8 !important;
+}
+
+/* Secondary buttons - Green background, white text */
+button[class*="bg-green"],
+button.bg-green-600,
+.bg-green-600,
+button[data-variant="secondary"] {
+  background-color: #16a34a !important;
+  color: white !important;
+  border-color: #16a34a !important;
+}
+
+button[class*="bg-green"]:hover,
+button.bg-green-600:hover,
+.bg-green-600:hover,
+button[data-variant="secondary"]:hover {
+  background-color: #15803d !important;
+  color: white !important;
+  border-color: #15803d !important;
+}
+
+/* Outline buttons - White background, dark text */
+button[class*="border-gray"],
+button.border-gray-400,
+button[data-variant="outline"] {
+  background-color: white !important;
+  color: #1f2937 !important;
+  border-color: #9ca3af !important;
+}
+
+button[class*="border-gray"]:hover,
+button.border-gray-400:hover,
+button[data-variant="outline"]:hover {
+  background-color: #f9fafb !important;
+  color: #111827 !important;
+  border-color: #6b7280 !important;
+}
+
+/* Ghost buttons - Transparent background, dark text */
+button[class*="bg-transparent"],
+button.bg-transparent,
+button[data-variant="ghost"] {
+  background-color: transparent !important;
+  color: #1f2937 !important;
+  border-color: transparent !important;
+}
+
+button[class*="bg-transparent"]:hover,
+button.bg-transparent:hover,
+button[data-variant="ghost"]:hover {
+  background-color: #f3f4f6 !important;
+  color: #111827 !important;
+}
+
+/* Override any conflicting styles */
+button * {
+  color: inherit !important;
+}
+
+/* Ensure text is always visible */
+button:not([class*="bg-transparent"]) {
+  text-shadow: none !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,9 +104,49 @@
     --foreground: #ededed;
   }
 }
-
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  font-family: 'Tajawal', Arial, Helvetica, sans-serif;
+}
+
+/* Font loading optimization */
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-tajawal {
+  font-family: 'Tajawal', sans-serif;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
